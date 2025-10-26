@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+coverage
+.env
+*.log
+bun.lock
+
+routeTree.gen.ts
