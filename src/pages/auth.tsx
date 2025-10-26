@@ -4,9 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 export function Auth() {
 	return (
-		<div className="flex flex-row justify-center align-center h-screen">
-			<div className="flex flex-col justify-center align-center w-full bg-gray-500">dsdsdsd</div>
-			<div className="flex flex-col justify-center align-center w-full bg-yellow-500">
+		<div className="min-h-screen grid lg:grid-cols-2">
+			<div className="flex items-center justify-center p-8"></div>
+			<div className="flex items-center justify-center p-8">
 				<Tabs defaultValue="singIn" className="w-[400px]">
 					<TabsList>
 						<TabsTrigger value="singIn">Entrar</TabsTrigger>

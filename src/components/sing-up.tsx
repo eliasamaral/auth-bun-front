@@ -63,7 +63,7 @@ export function SignUp() {
 	}
 
 	return (
-		<Card className="w-full sm:max-w-md">
+		<Card className="w-full h-[400px] sm:max-w-md">
 			<CardContent>
 				<form id="sign-up-form" onSubmit={handleSubmit(handleSignUp)}>
 					<FieldGroup>
