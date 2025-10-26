@@ -1,9 +1,6 @@
-import { SignIn } from '@/components/sign-in'
-import { SignUp } from '@/components/sing-up'
-
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { useState } from 'react'
-import { Me } from './components/me'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { Auth } from '@/pages/auth'
 
 export const App = () => {
 	const [queryClient] = useState(() => new QueryClient())
@@ -11,9 +8,7 @@ export const App = () => {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<div>
-				<SignIn />
-				<SignUp />
-				<Me/>
+				<Auth />
 			</div>
 		</QueryClientProvider>
 	)

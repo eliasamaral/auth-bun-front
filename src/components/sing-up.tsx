@@ -9,8 +9,6 @@ import {
 	Card,
 	CardContent,
 	CardFooter,
-	CardHeader,
-	CardTitle,
 } from '@/components/ui/card'
 import {
 	Field,
@@ -66,9 +64,6 @@ export function SignUp() {
 
 	return (
 		<Card className="w-full sm:max-w-md">
-			<CardHeader>
-				<CardTitle>Cadastrar</CardTitle>
-			</CardHeader>
 			<CardContent>
 				<form id="sign-up-form" onSubmit={handleSubmit(handleSignUp)}>
 					<FieldGroup>

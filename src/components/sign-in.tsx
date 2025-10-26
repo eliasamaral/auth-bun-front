@@ -9,8 +9,6 @@ import {
 	Card,
 	CardContent,
 	CardFooter,
-	CardHeader,
-	CardTitle,
 } from '@/components/ui/card'
 import {
 	Field,
@@ -60,9 +58,6 @@ export function SignIn() {
 
 	return (
 		<Card className="w-full sm:max-w-md">
-			<CardHeader>
-				<CardTitle>Acessar</CardTitle>
-			</CardHeader>
 			<CardContent>
 				<form id="sign-in-form" onSubmit={handleSubmit(handleSignIn)}>
 					<FieldGroup>
